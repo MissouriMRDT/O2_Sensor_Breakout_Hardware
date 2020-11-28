@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.5)-2")
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.4)-1")
 
   (general
     (thickness 1.6)
@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.762)
+    (last_trace_width 0.25)
     (user_trace_width 0.762)
     (trace_clearance 0.2)
     (zone_clearance 0.508)
@@ -61,7 +61,7 @@
     (pad_to_mask_clearance 0.051)
     (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
-    (visible_elements FFFFFF7F)
+    (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions false)
@@ -88,7 +88,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "../Gerbs/"))
+      (outputdirectory "../../Manufacturing/O2_Sensor_Hardware_Gerbs/"))
   )
 
   (net 0 "")
@@ -2718,7 +2718,7 @@
   (segment (start 150.4625 113.3165) (end 150.4625 117.793) (width 0.762) (layer F.Cu) (net 4))
   (segment (start 152.8445 110.9345) (end 150.4625 113.3165) (width 0.762) (layer F.Cu) (net 4))
 
-  (zone (net 3) (net_name GND) (layer F.Cu) (tstamp 5E7417B5) (hatch edge 0.508)
+  (zone (net 3) (net_name GND) (layer F.Cu) (tstamp 5FC2100C) (hatch edge 0.508)
     (connect_pads yes (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -2811,7 +2811,7 @@
       )
     )
   )
-  (zone (net 3) (net_name GND) (layer B.Cu) (tstamp 5E7417B2) (hatch edge 0.508)
+  (zone (net 3) (net_name GND) (layer B.Cu) (tstamp 5FC21009) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))

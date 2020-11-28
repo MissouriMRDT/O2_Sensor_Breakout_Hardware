@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:O2_Sensor_Hardware-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -90,7 +91,7 @@ Rx
 Text GLabel 2650 1550 0    50   Input ~ 0
 Tx
 $Comp
-L O2_Sensor:O2_sensor U1
+L O2_Sensor_Hardware-rescue:O2_sensor-O2_Sensor U1
 U 1 1 5E72A5E9
 P 1550 1400
 F 0 "U1" H 1550 1725 50  0000 C CNN

@@ -17,11 +17,11 @@ X ~ 4 -200 50 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# O2_Sensor_O2_sensor
+# O2_Sensor_Hardware-rescue_O2_sensor-O2_Sensor
 #
-DEF O2_Sensor_O2_sensor U 0 40 Y Y 1 F N
+DEF O2_Sensor_Hardware-rescue_O2_sensor-O2_Sensor U 0 40 Y Y 1 F N
 F0 "U" 150 -200 50 H V C CNN
-F1 "O2_Sensor_O2_sensor" 0 200 50 H V C CNN
+F1 "O2_Sensor_Hardware-rescue_O2_sensor-O2_Sensor" 0 200 50 H V C CNN
 F2 "" 150 -200 50 H I C CNN
 F3 "" 150 -200 50 H I C CNN
 DRAW
